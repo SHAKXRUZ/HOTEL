@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'OpenSans400';
+    src: url('../../assets/fonts/OpenSans400.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans600';
+    src: url('../../assets/fonts/OpenSans600.ttf');
+}
+
+@font-face {
+    font-family: 'AverageSans400';
+    src: url('../../assets/fonts/AverageSans400.ttf');
+}
+
+.heroBanner {
+    width: 100%;
+    background-color: #EAEFF6;
+}
+
+.heroBanners {
+    max-width: 1440px;
+    padding: 0px 165px;
+    margin: 0 auto;
+}
+
+.heroBanner_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.heroBanner_title {
+    max-width: 447px;
+    font-family: 'OpenSans600';
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    color: #3D4550;
+    margin-bottom: 16px;
+}
+
+.heroBanner_text {
+    max-width: 452px;
+    font-family: 'AverageSans400';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #939393;
+    margin-bottom: 36px;
+}
+
+.heroBanner_left_btn {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+}
+
+.heroBanner_left_btn1 {
+    width: 135px;
+    height: 40px;
+    background: #597193;
+    box-shadow: 0px 4px 12px rgba(21, 21, 21, 0.15);
+    border-radius: 4px;
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: transparent;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.heroBanner_left_btn1:hover {
+    background-color: dodgerblue;
+    transition: .5s;
+}
+
+.heroBanner_left_audio {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.heroBanner_audio_text {
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #353637;
+}
+
+.heroAudio {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1400px) {
+    .heroBanner_images {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    .heroBanners {
+        padding: 0px 50px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    .heroBanners {
+        padding: 0px 0px;
+    }
+
+    .heroBanner_title {
+        max-width: 400px;
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+
+    .heroBanner_text {
+        max-width: 400px;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .heroBanner_images {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .heroBanner_title {
+        max-width: 350px;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .heroBanner_text {
+        max-width: 350px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .heroBanner_images {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .heroBanner_title {
+        max-width: 350px;
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .heroBanner_text {
+        max-width: 350px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .heroBanner_images {
+        width: 300px;
+    }
+
+    .heroBanner_content {
+        padding: 0px 10px;
+    }
+
+    .heroBanner_left_audio {
+        gap: 10px;
+    }
+
+    .heroBanner_audio_text {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .heroBanner_left_btn {
+        gap: 20px;
+    }
+
+    .heroBanner_left_btn1 {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .heroBanner_images {
+        display: none;
+    }
+
+
+    .heroBanner_left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px 30px 0px;
+    }
+
+    .heroBanner_title {
+        max-width: 70%;
+        text-align: center;
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+
+    .heroBanner_text {
+        max-width: 70%;
+        text-align: center;
+    }
+
+    .heroBanner_left_audio {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .heroBanner_title {
+        max-width: 90%;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+
+    .heroBanner_text {
+        max-width: 90%;
+    }
+}
