@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'OpenSans400';
+    src: url('../../assets/fonts/OpenSans400.ttf');
+}
+
+@font-face {
+    font-family: 'AverageSans400';
+    src: url('../../assets/fonts/AverageSans400.ttf');
+}
+
+.check {
+    padding: 0px 163px;
+    max-width: 1440px;
+    margin: 120px auto 118px auto;
+}
+
+.checks {
+    padding: 0px 20px;
+}
+
+.check_titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check_title {
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: #353637;
+    margin-bottom: 16px;
+}
+
+.check_text {
+    width: 452px;
+    font-family: 'AverageSans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #959595;
+    margin-bottom: 46px;
+}
+
+.check_content {
+    display: flex;
+    align-items: center;
+}
+
+.check_images {
+    width: 637px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.check_right {
+    width: 475px;
+    height: 523px;
+    background: #F6FCFA;
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+}
+
+.check_input_text {
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 55px;
+    letter-spacing: 0.03em;
+    color: #222426;
+}
+
+.check_input {
+    width: 339px;
+    height: 50px;
+    border: 1px solid #ABABAB;
+    border-radius: 2px;
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 55px;
+    letter-spacing: 0.03em;
+    color: #636461;
+    padding: 0px 14px;
+}
+
+.check_form_btn {
+    width: 339px;
+    height: 50px;
+    border: 1.5px solid #596B86;
+    border-radius: 2px;
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    color: #222426;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.check_form_btn:hover {
+    background-color: rgb(203, 195, 195);
+    transition: .5s;
+}
+
+@media only screen and (max-width:1400px) {
+    .check_images {
+        width: 500px;
+    }
+
+    .check_right {
+        width: 340px;
+        height: auto;
+        gap: 20px;
+    }
+
+    .check_input {
+        width: 300px;
+        height: 45px;
+    }
+
+    .check_form_btn {
+        width: 300px;
+        height: 45px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .check {
+        padding: 0px 50px;
+        margin: 100px auto 100px auto;
+    }
+
+    .check_content {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .check {
+        padding: 0px 0px;
+        margin: 50px auto 50px auto;
+    }
+
+    .check_title {
+        font-size: 38px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .check_text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .check_content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .check_images {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .check_right {
+        width: 100%;
+        background: #F6FCFA;
+        border-radius: 10px;
+        padding: 30px 0px;
+    }
+
+    .check_input {
+        width: 320;
+    }
+
+    .check_form_btn {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .check {
+        margin: 50px auto 50px auto;
+    }
+
+    .checks {
+        padding: 0px 10px;
+    }
+
+    .check_title {
+        font-size: 25px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .check_text {
+        width: 80%;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+    .check_right {
+        display: none;
+    }
+}

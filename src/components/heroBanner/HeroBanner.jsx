@@ -17,7 +17,11 @@ const HeroBanner = () => {
             <div className="heroBanner_left_btn">
               <button className="heroBanner_left_btn1">Get Started</button>
               <div className="heroBanner_left_audio">
-                <img className="heroAudio" src={HeroBannerAudio} alt="heroBanner_images" />
+                <img
+                  className="heroAudio"
+                  src={HeroBannerAudio}
+                  alt="heroBanner_images"
+                />
                 <p className="heroBanner_audio_text">Watch video</p>
               </div>
             </div>
