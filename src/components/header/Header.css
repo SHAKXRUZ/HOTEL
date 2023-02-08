@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'AverageSans400';
+    src: url('../../assets/fonts/AverageSans400.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans400';
+    src: url('../../assets//fonts/OpenSans400.ttf');
+}
+
+.header {
+    width: 100%;
+    background-color: #EAEFF6;
+}
+
+.header_content {
+    max-width: 1440px;
+    padding: 20px 165px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.navbar_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar_link {
+    font-family: 'AverageSans400';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #353637;
+    border: transparent;
+    padding: 0px 0px 3px 0px;
+    transition: .5;
+}
+
+.navbar_link:hover {
+    transition: .5;
+    border-bottom: 2px solid #597193;
+}
+
+.header_btn {
+    width: 135px;
+    height: 40px;
+    background: #597193;
+    box-shadow: 0px 4px 12px rgba(21, 21, 21, 0.15);
+    border-radius: 4px;
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: transparent;
+}
+
+.header_btn:hover {
+    transition: .5s;
+    background-color: dodgerblue;
+}
+
+.menu {
+    display: none;
+    font-size: 35px;
+    cursor: pointer;
+    transition: .5s;
+    color: #597193;
+    margin-top: 10px;
+}
+
+.menu:hover {
+    color: dodgerblue;
+    transition: .5s;
+}
+
+@media only screen and (max-width:1200px) {
+    .header_content {
+        padding: 20px 50px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .header_content {
+        padding: 20px 0px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .navbar_item {
+        gap: 25px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navbar_item {
+        gap: 20px;
+    }
+
+    .header_content {
+        padding: 10px 0px;
+    }
+
+    header {
+        padding: 0px 10px;
+    }
+
+    .navbar_link {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .header_btn {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+}
+
+@media only screen and (max-width:650px) {
+
+    nav,
+    .header_btn {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    header {
+        gap: 50px;
+    }
+}
