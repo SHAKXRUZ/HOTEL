@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'OpenSans400';
+    src: url('../../assets/fonts/OpenSans400.ttf');
+}
+
+@font-face {
+    font-family: 'AverageSans400';
+    src: url('../../assets/fonts/AverageSans400.ttf');
+}
+
+.room {
+    max-width: 1440px;
+    padding: 0px 165px;
+    margin: 0px auto 123px auto;
+}
+
+.room_container {
+    padding: 0px 20px;
+}
+
+.room_titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 46px;
+}
+
+.room_title {
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    color: #353637;
+}
+
+.room_text {
+    max-width: 452px;
+    font-family: 'AverageSans400';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #959595;
+    text-align: center;
+}
+
+.room_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.room_cards {
+    max-width: 350px;
+    border: 1px solid #596B86;
+}
+
+.room_cards_content {
+    padding: 24px;
+}
+
+.room_cards_title {
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 55px;
+    color: #131313;
+}
+
+.room_cards_bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.room_bottom_text1 {
+    font-family: 'OpenSans400';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 55px;
+    color: #384D6C;
+}
+
+.room_bottom_text2 {
+    font-family: 'OpenSans400';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 55px;
+    color: #585858;
+}
+
+@media only screen and (max-width:1450px) {
+    .room_cards {
+        max-width: 320px;
+    }
+
+    .room_card_images {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    .room_cards {
+        max-width: 250px;
+    }
+
+    .room_card_images {
+        width: 250px;
+    }
+
+    .room {
+        margin: 0px auto 100px auto;
+    }
+
+    .room_cards_content {
+        padding: 5px;
+    }
+
+    .room_cards_title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .room_cards_bottom {
+        gap: 10px;
+    }
+
+    .room_bottom_text1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .room_bottom_text2 {
+        line-height: 40px;
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+    .room {
+        padding: 0px 50px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .room_title {
+        font-size: 38px;
+    }
+
+    .room {
+        padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .room {
+        margin: 0px auto 50px auto;
+    }
+
+    .room_titles {
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .room_text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .room_content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .room_cards {
+        max-width: 400px;
+    }
+
+    .room_cards_content {
+        padding: 20px;
+    }
+
+    .room_card_images {
+        width: 100%;
+    }
+
+    .room_cards_title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .room_bottom_text1 {
+        font-size: 30px;
+        line-height: 20px;
+    }
+
+    .room_bottom_text2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .room_cards_content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .room_container {
+        padding: 0px 10px;
+    }
+
+    .room_title {
+        font-size: 25px;
+    }
+
+    .room_text {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .room_text {
+        max-width: 280px;
+        line-height: 20px;
+    }
+
+    .room_title {
+        font-size: 22px;
+    }
+
+    .room_cards_title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .room_bottom_text1 {
+        font-size: 22px;
+        line-height: 20px;
+    }
+}
