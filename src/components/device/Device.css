@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'AverageSans400';
+    src: url('../../assets//fonts/AverageSans400.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans400';
+    src: url('../../assets//fonts/OpenSans400.ttf');
+}
+
+.servic {
+    max-width: 1440px;
+    padding: 0px 165px;
+    margin: 0 auto 100px auto;
+}
+
+.servic_container {
+    padding: 0px 20px;
+}
+
+.servic_titles {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.servic_title {
+    font-family: 'AverageSans400';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.26em;
+    color: #597193;
+}
+
+.servic_text {
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    color: #353637;
+}
+
+.servic_card_group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.servic_card {
+    border: 1px solid #596B86;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.servic_card_titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.servic_card_title {
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 55px;
+    color: #131313;
+}
+
+.servic_card_text {
+    font-family: 'AverageSans400';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #9B9B9B;
+}
+
+@media only screen and (max-width:1250px) {
+    .servic_card_title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .servic {
+        padding: 0px 50px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .servic {
+        padding: 0px 0px;
+    }
+
+    .servic_text {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+
+    .servic {
+        margin: 0 auto 50px auto;
+    }
+
+    .servic_titles {
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .servic_card_group {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .servic_container {
+        padding: 0px 10px;
+    }
+
+    .servic_titles {
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .servic_title {
+        font-size: 14px;
+    }
+
+    .servic_text {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .servic_card_titles {
+        margin-bottom: 15px;
+    }
+
+    .servic_card_title {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+    .servic_card_group {
+        grid-template-columns: 1fr;
+    }
+}
