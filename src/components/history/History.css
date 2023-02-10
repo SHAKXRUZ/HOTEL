@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'OpenSans700';
+    src: url('../../assets/fonts/OpenSans700.ttf');
+}
+
+@font-face {
+    font-family: 'AverageSans400';
+    src: url('../../assets/fonts/AverageSans400.ttf');
+}
+
+.history {
+    max-width: 1440px;
+    margin: 0 auto 119px auto;
+}
+
+.history_container {
+    padding: 0px 165px;
+}
+
+.history_titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 128px;
+}
+
+.history_titles_card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.history_titles_text1 {
+    font-family: 'OpenSans700';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    color: #596B86;
+}
+
+.history_titles_text2 {
+    font-family: 'AverageSans400';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #939393;
+}
+
+.history_titles_line {
+    width: 54px;
+    height: 0px;
+    border: 1.5px solid #C4C4C4;
+    transform: rotate(90deg);
+}
+
+.history_content {
+    display: flex;
+}
+
+.history_content_cards {
+    max-width: 540px;
+    height: 523px;
+    background: #F6FCFA;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid black;
+    padding: 85px 72px 85px 61px;
+}
+
+.history_cards_title {
+    font-family: 'OpenSans400';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    color: #353637;
+    margin-bottom: 12px;
+}
+
+.history_cards_text1 {
+    font-family: 'AverageSans400';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #686868;
+    margin-bottom: 31px;
+}
+
+.history_cards_text2 {
+    font-family: 'AverageSans400';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #686868;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+@media only screen and (max-width:1450px) {
+    .history_content_cards {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .history_images {
+        max-width: 530px;
+    }
+
+    .history_content_cards {
+        padding: 40px;
+    }
+}
