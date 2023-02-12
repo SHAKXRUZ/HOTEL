@@ -115,3 +115,44 @@
         padding: 40px;
     }
 }
+
+@media only screen and (max-width:1300px) {
+    .history_images {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .history {
+        margin: 0 auto 50px auto;
+    }
+
+    .history_container {
+        padding: 0px 50px;
+    }
+
+    .history_titles {
+        margin-bottom: 100px;
+    }
+
+    .history_images {
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width:1000px) {
+    .history {
+        margin: 0 auto 50px auto;
+    }
+
+    .history_container {
+        padding: 0px 50px;
+    }
+
+    .history_titles {
+        margin-bottom: 100px;
+    }
+
+    .history_images {
+        max-width: 50%;
+    }
+}
