@@ -246,7 +246,12 @@
         align-items: center;
         justify-content: center;
     }
-    .history_titles_line{
+
+    .history_titles_line {
         display: none;
     }
+}
+
+@media only screen and (max-width:350px) {
+    
 }
